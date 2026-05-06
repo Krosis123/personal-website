@@ -5,7 +5,7 @@ export const profile = {
   github: "https://github.com/Krosis123",
   linkedin: "https://www.linkedin.com/in/usman-yahya-98840231a/?skipRedirect=true",
   resume: "",
-  about: "",
+  about: "I'm a student of SBASSE at LUMS. My major is CS with a minor in maths and EE. I'm interested in Computer Architecture, AI/ML, and Maths.",
 };
 export const research = [];
 
