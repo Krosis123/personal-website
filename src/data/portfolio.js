@@ -11,7 +11,7 @@ export const research = [];
 
 export const projects = [
   {
-    title: "n8n Automated News Aggregator",
+    title: "nn Automated News Aggregator",
     category: "AI Automation",
     status: "Completed",
     description:
