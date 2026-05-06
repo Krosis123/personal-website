@@ -11,11 +11,11 @@ export const research = [];
 
 export const projects = [
   {
-    title: "nn Automated News Aggregator",
+    title: "n8n Automated News Aggregator",
     category: "AI Automation",
-    status: "Completed",
+    status: "Comp",
     description:
-      "Made a news aggregator which provided latest news on a daily basis. The process was fully automated through n8n and API calls.",
+      "Made a news aggregaommittor which provided latest news on a daily basis. The process was fully automated through n8n and API calls.",
     tools: ["n8n"],
     github: "",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7355163490766000129/",
