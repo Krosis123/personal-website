@@ -580,7 +580,6 @@ function Home() {
 
       <Reveal>
         <section>
-          <SectionTitle number="01" title="Project Slideshow" description="Auto-playing slides built from your existing projects array." />
           <ProjectSlideshow items={projectItems} />
         </section>
       </Reveal>
