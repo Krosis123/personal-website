@@ -507,7 +507,6 @@ function Shell({ page, setPage, children }) {
       <footer className="relative z-10 border-t-2 border-neutral-950 bg-neutral-950 text-[#fffaf0]">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 md:flex-row md:items-center md:justify-between">
           <p className="text-sm font-extrabold">© {new Date().getFullYear()} {profile.name || "Your Name"}</p>
-          <p className="text-sm text-white/60">Your portfolio data stays in portfolio.js.</p>
         </div>
       </footer>
     </main>
