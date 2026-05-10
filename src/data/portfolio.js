@@ -1,21 +1,43 @@
+// ============================================
+// PORTFOLIO DATA
+// ============================================
+// Edit this file to update your website.
+// • Add new objects to any array below.
+// • Empty arrays = that section won't appear.
+// • The site rebuilds automatically on save.
+// ============================================
+
+// ── Your Info ────────────────────────────────
 export const profile = {
   name: "Usman Yahya",
-  headline: "Computer Science Student",
+  headline: "Computer Science Student at LUMS",
   email: "usmanyahya2006@gmail.com",
   github: "https://github.com/Krosis123",
-  linkedin: "https://www.linkedin.com/in/usman-yahya-98840231a/?skipRedirect=true",
+  linkedin: "https://www.linkedin.com/in/usman-yahya-98840231a/",
   resume: "",
-  about: "I'm a student of SBASSE at LUMS. My major is CS with a minor in maths and EE. I'm interested in Computer Architecture, AI/ML, and Maths.",
+  about:
+    "CS major with a minor in Mathematics & EE at SBASSE, LUMS. Interested in Computer Architecture, AI/ML, and Mathematics.",
 };
-export const research = [];
 
+// ── Education ────────────────────────────────
+// Add entries like: { institution, degree, period }
+export const education = [
+  {
+    institution: "LUMS — SBASSE",
+    degree: "BS Computer Science, Minor in Mathematics & EE",
+    period: "2024 – Present",
+  },
+];
+
+// ── Projects ─────────────────────────────────
+// Add entries like: { title, category, status, description, tools[], github, demo }
 export const projects = [
   {
     title: "n8n Automated News Aggregator",
     category: "AI Automation",
-    status: "Comp",
+    status: "Completed",
     description:
-      "Made a news aggregaommittor which provided latest news on a daily basis. The process was fully automated through n8n and API calls.",
+      "Built a fully automated news aggregator that delivers curated daily news via n8n workflows and API integrations.",
     tools: ["n8n"],
     github: "",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7355163490766000129/",
@@ -25,7 +47,7 @@ export const projects = [
     category: "Computer Architecture",
     status: "Completed",
     description:
-      "Made an ALU from scratch to do basic operations using logic circuits. Also made a blueprint on Logisim.",
+      "Designed and built an ALU from logic gates to perform basic arithmetic operations. Simulated in Logisim.",
     tools: ["Logic Gates", "Logisim"],
     github: "",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7362856839350267904/",
@@ -35,110 +57,83 @@ export const projects = [
     category: "Computer Architecture",
     status: "Completed",
     description:
-      "Made an assembler that converted assembly code into machine-readable binary.",
+      "Built an assembler that converts assembly code into machine-readable binary.",
     tools: ["C++", "Assembly"],
     github: "",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7424448246003081216/",
   },
   {
-    title: "SIMD vs Scalar Architecture Benchmark",
+    title: "SIMD vs Scalar Benchmark",
     category: "Computer Architecture",
     status: "Completed",
     description:
-      "Ran a benchmark test to compare scalar and SIMD architecture on compute-bound and memory-bound cases.",
+      "Benchmarked scalar vs SIMD architecture performance on compute-bound and memory-bound workloads.",
     tools: ["Google Colab", "Python", "C++"],
     github: "",
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7453769482612879360/",
   },
 ];
 
+// ── Course Projects ──────────────────────────
+// Add entries like: { title, course, semester, description, skills[], link }
 export const courseProjects = [
   {
     title: "Finance Manager",
     course: "CS100",
     semester: "1",
     description:
-      "A simple finance manager for personal use. Users could add expenses and manage plans for up to a month.",
-    skills: [],
+      "A personal finance manager where users can add expenses and manage monthly budgets.",
+    skills: ["C++"],
     link: "",
   },
 ];
 
+// ── Skills ───────────────────────────────────
+// Add entries like: { name, level }
+// level can be: "Beginner", "Intermediate", "Advanced"
+export const skills = [
+  { name: "C", level: "Intermediate" },
+  { name: "C++", level: "Intermediate" },
+  { name: "Python", level: "Intermediate" },
+  { name: "Assembly", level: "Beginner" },
+];
+
+// ── Courses ──────────────────────────────────
+// Add entries like: { name, area, semester, topics }
 export const courses = [
-  {
-    name: "Calculus",
-    area: "Maths",
-    semester: "1",
-    topics: "",
-  },
-  {
-    name: "Classical Mechanics",
-    area: "Physics",
-    semester: "1",
-    topics: "",
-  },
+  { name: "Calculus", area: "Mathematics", semester: "1", topics: "" },
+  { name: "Classical Mechanics", area: "Physics", semester: "1", topics: "" },
   {
     name: "CS100",
     area: "Computer Science",
     semester: "1",
-    topics: "General problem solving and introduction to C++.",
+    topics: "Problem solving and introduction to C++.",
   },
-  {
-    name: "Quantum Mechanics",
-    area: "Physics",
-    semester: "2",
-    topics: "",
-  },
-  {
-    name: "Modern Physics",
-    area: "Physics",
-    semester: "2",
-    topics: "",
-  },
+  { name: "Quantum Mechanics", area: "Physics", semester: "2", topics: "" },
+  { name: "Modern Physics", area: "Physics", semester: "2", topics: "" },
   {
     name: "CS200",
     area: "Computer Science",
     semester: "2",
-    topics:
-      "Introduction to rigorous programming, OOP, data structures, and LeetCode-style problem solving.",
+    topics: "OOP, data structures, and algorithmic problem solving.",
   },
   {
     name: "Linear Algebra (Honours)",
-    area: "Maths",
+    area: "Mathematics",
     semester: "2",
     topics: "",
   },
 ];
 
-export const grades = [];
+// ── Experiences ──────────────────────────────
+// Add entries like: { role, organization, period, description, link }
+// Examples: internships, clubs, volunteering, freelance
+export const experiences = [];
 
-export const codingExperience = [
-  {
-    title: "C",
-    level: "Intermediate",
-    description: "",
-    skills: [],
-  },
-  {
-    title: "C++",
-    level: "Intermediate",
-    description: "",
-    skills: [],
-  },
-  {
-    title: "Python",
-    level: "Intermediate",
-    description: "",
-    skills: [],
-  },
-  {
-    title: "Assembly",
-    level: "Beginner",
-    description: "",
-    skills: [],
-  },
-];
+// ── Research ─────────────────────────────────
+// Add entries like: { title, area, status, summary, methods[], link }
+export const research = [];
 
-export const otherExperience = [];
-
+// ── Blog Posts ───────────────────────────────
+// Add entries like: { title, date, tags, summary, content }
 export const blogPosts = [];
